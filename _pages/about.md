@@ -1,9 +1,9 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
-subtitle: [Imperial College](https://www.imperial.ac.uk/)
-You can contact me through [email](lichengliu1103@gmail.com) or [X](https://x.com/liulicheng10)
+subtitle: >
+  [Imperial College](https://www.imperial.ac.uk/) <br> You can contact me through [email](mailto:lichengliu1103@gmail.com) or [X](https://x.com/liulicheng10)
 
 profile:
   align: right

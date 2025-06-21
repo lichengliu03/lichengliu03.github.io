@@ -432,7 +432,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Licheng Liu", "_blank");
+          window.open("https://www.linkedin.com/in/licheng-liu", "_blank");
         },
       },{
         id: 'social-scholar',

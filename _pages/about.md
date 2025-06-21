@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
-  Pronunciation: Lee-chuhng Lee-oh
+subtitle: Pronunciation: Lee-chuhng Lee-oh
 
 profile:
   align: right

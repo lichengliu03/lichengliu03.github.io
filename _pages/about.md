@@ -29,6 +29,6 @@ latest_posts:
 
 I'm a 3rd year Maths student at Imperial College. I study how we can continue to optimize and improve LLMs after their initial pretraining and instruction tuning. Specifically, I use RL as a tool to refine model behavior according to downstream objectives, preferences, or constraints. Previously, I worked on learning theory, with a focus on online selective prediction. 
 
-I have been advised by [Prof. Manling Li](https://limanling.github.io/) and [Prof. Mingda Qiao](https://sites.google.com/site/acmonsterqiao/). 
+I am fortunate to be advised by [Prof. Manling Li](https://limanling.github.io/) and [Prof. Mingda Qiao](https://sites.google.com/site/acmonsterqiao/).
 
 I'm always open to collaboration, don't hesitate to shoot me an email!

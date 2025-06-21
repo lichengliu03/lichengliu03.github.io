@@ -376,16 +376,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-m-grateful-to-be-supervised-by-prof-mingda-qiao-working-on-selective-prediction-in-online-settings",
+          title: 'I’m grateful to be supervised by Prof. Mingda Qiao working on selective prediction...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-m-excited-to-share-that-i-m-joining-nu-mll-lab-advised-by-prof-manling-li-i-mainly-work-with-zihan-wang-and-am-grateful-for-his-guidance",
+          title: 'I’m excited to share that I’m joining NU MLL Lab 🔬, advised by...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',

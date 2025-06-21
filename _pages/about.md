@@ -3,14 +3,14 @@ layout: about
 title: About
 permalink: /
 subtitle: 
-  Pronunciation: Lee-chuhng Lee-oh
+  <p>Pronunciation: Lee-chuhng Lee-oh</p>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
+   more_info: 
+      <p>Photo by Yiling Hou</p>
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 

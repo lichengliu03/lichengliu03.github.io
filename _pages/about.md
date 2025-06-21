@@ -32,4 +32,4 @@ I'm a 3rd year Maths student at Imperial College. I study how we can continue to
 
 I am fortunate to be advised by [Prof. Manling Li](https://limanling.github.io/) and [Prof. Mingda Qiao](https://sites.google.com/site/acmonsterqiao/).
 
-I'm always open to collaboration, don't hesitate to shoot me an email!
+I’m always open to collaboration and would love to chat—don’t hesitate to shoot me an email!

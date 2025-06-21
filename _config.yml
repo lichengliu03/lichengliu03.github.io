@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Licheng
 middle_name: 
 last_name: Liu
-contact_note: Contact me through lichengliu1103@gmail.com
+# contact_note: Contact me through lichengliu1103@gmail.com
 description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.

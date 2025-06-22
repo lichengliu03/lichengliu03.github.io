@@ -9,6 +9,8 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  more_info: 
+    <p>Photo by Yiling Hou</p>
   # more_info: 
   #   photo by Yiling Hou
   #   <p>123 your address street</p>

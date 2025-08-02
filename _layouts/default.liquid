@@ -47,12 +47,12 @@
       {% endif %}
     </div>
     {% if page.url == "/" %}
-      <div id="clustrmaps-widget" class="text-center my-5">
-        <script type="text/javascript" id="clustrmaps"
-          src="https://clustrmaps.com/map_v2.js?d=TpCTZBN0FELen5e_atIlqU4kdW910p95F9MWNcm-Jt8&cl=ffffff&w=a">
-        </script>
-      </div>
-    {% endif %}
+    <div id="clustrmaps-widget" class="text-center my-5" style="max-width: 300px; margin: 0 auto;">
+      <script type="text/javascript" id="clustrmaps"
+        src="https://clustrmaps.com/map_v2.js?d=TpCTZBN0FELen5e_atIlqU4kdW910p95F9MWNcm-Jt8&cl=ffffff&w=a">
+      </script>
+    </div>
+  {% endif %}
     <!-- Footer -->
     {% include footer.liquid %}
 

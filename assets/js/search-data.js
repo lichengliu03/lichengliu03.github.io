@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-how-i-prepare-a-research-talk-notes-on-slides-scripts-and-delivery",
+        
+          title: "How I Prepare a Research Talk: Notes on Slides, Scripts, and Delivery",
+        
+        description: "How I prepare slides, scripts, and delivery — a student&#39;s perspective",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/11/18/how-i-prepare-research-presentation.html";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         

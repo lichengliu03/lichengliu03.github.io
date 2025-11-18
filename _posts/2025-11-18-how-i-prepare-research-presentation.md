@@ -73,7 +73,11 @@ If I have a list of reasons or multiple parallel points, I turn each one into it
 
 Sometimes logic itself needs to be explicitly surfaced. For example:
 
-“If the meaning stays similar, consistency is high. If the meaning drifts, consistency is low.” — **Two short lines and a clear contrast.**
+“If the meaning stays similar, consistency is high.
+
+If the meaning drifts, consistency is low.”
+
+Two short lines and a clear contrast.
 
 This style helps listeners process the structure of your reasoning without straining to reconstruct it.
 
@@ -89,25 +93,15 @@ By the time I reach delivery practice, the slides are structurally sound and the
 
 I follow advice that many presenters recommend, but that I have found to be genuinely impactful:
 
-Speak slower than you think you should.
+**Speak slower than you think you should.** Nerves speed you up. Deliberate slowness keeps your thoughts intact and gives the audience space to absorb them.
 
-Nerves speed you up. Deliberate slowness keeps your thoughts intact and gives the audience space to absorb them.
+**Pause at difficult points.** Technical terms or subtle ideas require processing time. A short pause—one second, sometimes two—helps the audience catch up and helps me reset my pace.
 
-Pause at difficult points.
+**Mark difficult lines in the script.** During practice, I underline or highlight terms I know I tend to rush through. These marks remind me to slow down or pause.
 
-Technical terms or subtle ideas require processing time. A short pause—one second, sometimes two—helps the audience catch up and helps me reset my pace.
+**Read the script out loud, line by line, and revise as you go.** A sentence that looks fine on the page may be awkward when spoken. Speaking it aloud forces you to confront rhythm and clarity issues early.
 
-Mark difficult lines in the script.
-
-During practice, I underline or highlight terms I know I tend to rush through. These marks remind me to slow down or pause.
-
-Read the script out loud, line by line, and revise as you go.
-
-A sentence that looks fine on the page may be awkward when spoken. Speaking it aloud forces you to confront rhythm and clarity issues early.
-
-Use deep breathing when nervous.
-
-This is more than a cliché. Deep breathing interrupts the physiological cycle that accelerates speech, tightens the throat, and scatters attention.
+**Use deep breathing when nervous.** This is more than a cliché. Deep breathing interrupts the physiological cycle that accelerates speech, tightens the throat, and scatters attention.
 
 The goal is not to sound dramatic or polished, but to sound stable.
 

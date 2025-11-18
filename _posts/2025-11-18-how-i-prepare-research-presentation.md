@@ -1,408 +1,334 @@
 ---
 layout: post
-title: "How I Prepare a Research Presentation —— 从 Slides、Scripts 到 Delivery 的全流程分享（中英双语）"
+title: "How I Prepare a Research Talk — Notes on Slides, Scripts, and Delivery"
 date: 2025-11-18 10:00:00
-description: "Slides、Scripts、Delivery 的全流程实践（中英双语）"
+description: "Notes on Slides, Scripts, and Delivery · 文章风格（中英双语）"
 tags: presentation research slides scripts delivery bilingual
 categories: blog
 ---
 
 ⸻
 
-🌟 **How I Prepare a Research Presentation
+⭐ **How I Prepare a Research Talk
 
-—— 从 Slides、Scripts 到 Delivery 的全流程分享（中英双语）**
 
-EN | Chinese version below
+Notes on Slides, Scripts, and Delivery**
 
-⸻
+（中英双语 · 文章风格）
 
-⭐ Introduction
 
-I just finished a research presentation, and the feedback was great.
+I gave a research talk recently.
 
-So I wanted to write down how I actually prepared it—
+It went well—better than I expected.
 
-the decisions I made, the mistakes I avoided,
+And when I walked home afterward, still a bit light-headed from the adrenaline,
 
-and the workflow that helped me stay clear, calm, and convincing.
+I realized something:
 
-This is not a “perfect method.”
+preparing a talk is not a linear process.
 
-It’s just what worked for me.
+It’s not “make slides → write script → memorize.”
 
-But I hope it can help anyone who is preparing a talk,
+It’s more like shaping a thought, testing its clarity,
 
-especially in ML/AI research.
+and repeatedly asking myself the same uncomfortable question:
 
-I’ll break it into three parts:
 
-Slides, Scripts, Delivery.
 
-⸻
+“If I were the harshest possible critic, would I trust what I just said?”
 
-🎨 1. Slides — Building From Logic, Not Decoration
 
-I always start from logic, not visuals.
 
-Before touching PowerPoint, I write down the backbone:
+This post is a record of how I built this talk—from slides, to scripts, to delivery—
 
-	1.	What is the core problem?
+and what I learned along the way.
 
-	2.	How is it solved today?
 
-	3.	What are the limitations of existing methods?
 
-	4.	What is my method?
+I hope it helps someone preparing a talk of their own.
 
-	5.	How does it solve the problem?
 
-	6.	What are the results?
-
-	7.	How should we interpret them?
-
-Once this chain is solid, the slides almost build themselves.
-
-My slide principles: simple, clean, understandable.
-
-	•	Slides must be instantly understandable.
-
-	•	The audience should believe what you say.
-
-	•	Use figures to support your claims.
-
-	•	Use bullet points to let the audience catch up,
-
-even if they drift off for a moment.
-
-	•	But be careful:
-
-	•	Bullet points must be short.
-
-	•	Only the core ideas should appear.
-
-	•	Bold or color the most important phrase.
-
-	•	Don’t assume people know what you know.
-
-Treat the audience as if they are seeing this topic for the first time.
-
-My workflow for slides:
-
-	1.	Draft the logical skeleton
-
-	2.	Turn skeleton into slides
-
-	3.	Write scripts
-
-	4.	Modify slides again using scripts
-
-	5.	Get multiple rounds of feedback
-
-	6.	Edit ruthlessly
-
-Slides are never finished on the first try.
-
-They get better through review, critique, and cutting.
 
 ⸻
 
-📝 2. Scripts — Short Sentences, Zero Arrogance
 
-I write the full script after drafting the slides.
 
-And I write it in short sentences only.
+🌈 1. Slides: Where the Storyline Begins
 
-Long sentences with subordinating clauses kill comprehension.
 
-People cannot follow them.
 
-And when you’re nervous, you will trip over them.
+I used to think slides were just a visual aid.
 
-So my rules are:
+Now I think they are the skeleton of the talk.
 
-	•	One idea per sentence.
 
-	•	No complicated grammar.
 
-	•	No long chains of logic.
+Before I opened PowerPoint, I sat down and wrote out the logical chain:
 
-	•	Imagine the harshest critic asking:
+	•	What’s the core question?
 
-	•	“Is this consistent?”
+	•	How do people solve it today?
 
-	•	“Is this factually true?”
+	•	Why are those methods not enough?
 
-	•	“Is anything missing?”
+	•	What is my idea?
 
-	•	Make sure even someone with no background can follow.
+	•	Why should anyone believe it?
 
-I used ChatGPT to help me write the script.
+	•	What do the results say?
 
-But the key is:
+	•	How should we interpret them?
 
-You must tell the model what you want to say.
 
-Then refine, shorten, and simplify.
 
-The biggest danger in script writing is the curse of knowledge.
+Once this chain made sense,
 
-Never assume the audience knows your background or terminology.
+the slides almost built themselves.
 
-Never assume your logic is obvious.
 
-Never sound arrogant.
 
-Your job is not to show you are smart.
+My slides followed one principle: clarity.
 
-Your job is to help them understand.
 
-⸻
 
-🎤 3. Delivery — Slow Down and Let People Think
+Not aesthetics.
 
-Delivery is where everything comes together.
+Not density.
 
-The best trick I learned is simple:
+Clarity.
 
-Make every sentence short.
 
-So you can read it out loud smoothly.
 
-Here are the techniques I found most useful:
+I assumed the audience knew nothing about my topic.
 
-✔ Speak slower than you think
+Not because they actually don’t,
 
-Everyone speeds up on stage.
+but because assuming otherwise invites the curse of knowledge.
 
-So I deliberately slow down.
 
-✔ Pause at difficult terms
 
-I mark technical terms or complex points in the script.
+So I kept the slides simple:
 
-When speaking, I pause for a second.
+	•	A few bullet points—short, essential, and nothing more.
 
-This gives the audience time to process.
+	•	Occasional bold text or color to highlight the one take-home idea per page.
 
-✔ Breathe deeply when nervous
+	•	Figures placed only when they supported something, never for decoration.
 
-Deep breathing helps calm your body
 
-and reset your pacing.
 
-✔ Practice until the script feels natural
+If someone spaced out for ten seconds,
 
-Because the sentences are short,
+I wanted them to look back up and still know where we were.
 
-I could practice quickly and memorize the flow.
 
-✔ Don’t attempt perfection
 
-You just need to be clear, calm, and sincere.
+And strangely, designing slides became much easier
 
-After the talk, the feedback was very positive.
+once I stopped trying to impress people
 
-My professor said I did great,
+and started trying to take care of them.
 
-and that meant a lot to me.
+
 
 ⸻
 
-🌟 Final Thoughts
 
-Presenting research is not about showing off.
 
-It’s about building trust and communicating clearly.
+✍️ 2. Scripts: Short Sentences, No Ego
 
-My formula is simple:
 
-	•	Slides: logic first, clarity always
 
-	•	Scripts: short sentences, no arrogance
+After the slides had a spine,
 
-	•	Delivery: slow, calm, deliberate
+I began writing the script.
 
-If your harshest critic cannot find a flaw,
 
-and someone with zero background can still follow your ideas,
 
-you’ve done a good job.
+I wrote in short sentences.
 
-⸻
+Painfully short.
 
-🇨🇳 中文版
+Sometimes the script felt almost childish.
 
-⭐ 引言
+But then I remembered:
 
-我刚做完一次研究型的 presentation，反馈很好。
+the audience listens once, in real time.
 
-所以我想把整个准备过程写下来——
+Long sentences collapse under their own weight.
 
-包括我怎么设计 slides、怎么写 script、怎么练 delivery。
+Short ones stay upright.
 
-希望能帮到正在准备学术报告的人。
 
-我把内容分成三个部分：
 
-Slides、Scripts、Delivery。
+I asked ChatGPT to help me draft phrasing.
 
-⸻
+But the real work was mine—
 
-🎨 1. Slides —— 先定逻辑，再做幻灯片
+deciding what the audience might doubt,
 
-我做 slide 从来不是先装饰，而是先弄清楚逻辑：
+where the logic could crack,
 
-	1.	核心问题是什么？
+where a detail might be wrong,
 
-	2.	现在大家怎么做？
+or a claim too strong.
 
-	3.	这些方法有什么问题？
 
-	4.	我的方法是什么？
 
-	5.	为什么它能解决问题？
+I would read through a paragraph and ask:
 
-	6.	结果怎么样？
+	•	“Would a hostile reviewer tear this apart?”
 
-	7.	怎么解读这些结果？
+	•	“Would a complete beginner understand this?”
 
-逻辑链有了，slides 就基本成型了。
 
-我的 slide 原则：简单、清晰、让人听懂。
 
-	•	观众必须能 立刻看懂
+If the answer to any question wasn’t “yes,”
 
-	•	观众必须 信任 你说的
+I rewrote it.
 
-	•	用图来支撑你的论点
 
-	•	用 bullet points 让走神的观众能 快速跟上
 
-	•	但 bullet 必须短、必须是重点
+What surprised me most was this:
 
-	•	重点用加粗/颜色标出
+the tone matters as much as the content.
 
-	•	永远假设观众完全不懂这个领域
 
-制作流程：
 
-	1.	先搭逻辑骨架
+A script overloaded with confidence feels arrogant.
 
-	2.	转成幻灯片
+One that hides behind jargon feels insecure.
 
-	3.	写脚本
+I kept adjusting until my words felt like:
 
-	4.	根据脚本再修改 slides
+“Here is what I know.
 
-	5.	多次让别人听
+Here is why I think it matters.
 
-	6.	疯狂修改、删减
+Here is the evidence.
 
-Slides 很难一次做对。
+And you’re invited to decide with me.”
 
-它是一个不断 refine 的过程。
+
 
 ⸻
 
-📝 2. Scripts —— 短句、直白、没有傲慢
 
-幻灯片搭好之后，我才写脚本。
 
-脚本 一定只用短句。
+🎤 3. Delivery: Slow Down to Be Heard
 
-长句子会让人听不懂。
 
-你自己也很难流畅读出来。
 
-写脚本的原则：
+By the time I started practicing delivery,
 
-	•	一句话只表达一个点
+the slides made sense and the script felt clean.
 
-	•	不用复杂语法
+The last step was making the talk sound human.
 
-	•	不用从句
 
-	•	想想别人会如何攻击你的逻辑
 
-	•	想想有没有事实性错误
+So I practiced reading slowly.
 
-	•	想想有没有没解释清楚的地方
+Slower than felt natural.
 
-	•	一定避免 知识诅咒
+Slower than my heartbeat wanted.
 
-	•	更要避免 傲慢
 
-你的任务不是展现聪明，
 
-而是让别人理解你。
+Every technical term, I paused.
 
-我用 ChatGPT 来写脚本，
+Every key transition, I breathed.
 
-告诉它我要讲什么，然后让它帮我变成演讲式短句。
 
-再多次修改。
 
-⸻
+I marked difficult phrases in red and reminded myself:
 
-🎤 3. Delivery —— 慢一点，再慢一点
+“Pause here. Let them catch up.”
 
-Delivery 是整个流程里最关键的一步。
 
-对我最有帮助的方法就是：
 
-让每一句变得很短。
+And when nervousness inevitably arrived,
 
-这样你可以轻松说出来。
+I learned that deep breathing actually works.
 
-其他技巧：
+It cuts the panic loop before it spirals.
 
-✔ 有意识地放慢语速
 
-你在场上一定会不自觉变快。
 
-✔ 专有名词要停顿
+The most comforting part was this:
 
-这些地方观众需要处理信息，
+because the script was built in short sentences,
 
-你要给他们时间。
+I never felt overwhelmed.
 
-✔ 紧张就深呼吸
+The pacing took care of itself.
 
-深呼吸真的有用。
 
-✔ 反复练习脚本
 
-短句让练习变得轻松。
+During the talk, I could feel the room following.
 
-演讲结束后反馈很好。
+Not rushing.
 
-老师也肯定了我的表现，这让我很开心。
+Not drowning.
+
+Just staying with me.
+
+
+
+And afterward, when my professor said I did well,
+
+I felt something settle inside me—
+
+not pride, exactly,
+
+but gratitude.
+
+
 
 ⸻
 
-🌟 总结
 
-科研演讲不是炫技，
 
-而是建立信任、清晰表达。
+🌟 Closing Thoughts
 
-我的方法很简单：
 
-	•	Slides：逻辑为王
 
-	•	Scripts：短句、无傲慢
+Giving a talk is not about proving something.
 
-	•	Delivery：慢、稳、有停顿
+It’s about building a clean path for others to walk on.
 
-如果最挑剔的人挑不出毛病，
 
-完全没有基础的人也能听懂，
 
-那你就讲成功了。
+If I had to summarize my method, it would be this:
+
+
+
+Slides → clarity of logic
+
+Scripts → clarity of language
+
+Delivery → clarity of pacing
+
+
+
+And clarity, I’ve learned, is an act of generosity.
+
+
+
+I hope these notes help someone preparing their next talk.
+
+If nothing else, I hope they remind you that a research talk is a craft—
+
+one that becomes smoother, calmer, and more enjoyable
+
+every time you practice it.
+
+
 
 ⸻
 
-如果你愿意，我还能帮你把这篇 blog 做一个 封面标题设计，或者生成一个 可发布在 Slack / Substack /知乎 的短版版本。
+
+
+如果你愿意，我可以再做一个 标题图、短版本、或微博/小红书适配版本。
 
 

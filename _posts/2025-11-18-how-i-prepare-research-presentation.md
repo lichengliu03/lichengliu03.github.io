@@ -7,32 +7,117 @@ tags: presentation research slides scripts delivery clarity student
 categories: blog
 ---
 
-I want to share how I prepare a research presentation from the perspective of a student—specifically, a *current undergraduate* who is still learning how to communicate complex ideas clearly. Over time I’ve found that preparing a talk is less about polishing slides and more about shaping a line of thought that the audience can trust. The process for me unfolds across three layers: building the slides, writing the script, and practicing the delivery.
+I want to share how I prepare a research presentation from the perspective of a student—specifically, an undergraduate still learning how to explain technical ideas in a way that feels clean, trustworthy, and genuinely understandable. Over time, I’ve found that preparing a talk is not about assembling slides as fast as possible, nor about memorizing a script at the end. Instead, it’s a layered process—slides, scripts, and delivery—each shaping a different dimension of clarity.
 
-When I start working on slides, I always begin with the logic rather than the visuals. I write out the structure of the entire talk in one continuous chain: the core problem, what current methods do, why those methods fall short, what my idea is, how it addresses the failure modes, what the results look like, and how to interpret them.
+Before diving into each layer, I should mention that my workflow always follows the same order: first I build the skeleton of the slides, then I write the script, and finally I return to the slides to fill in figures, emphasis, and refinements that the script reveals to be necessary. The slides provide structure; the script gives the structure flesh; and the delivery animates the whole thing.
 
-**This outline becomes the backbone of everything that follows.**
+⸻
 
-Only after this logical chain is stable do I open PowerPoint. My guiding principle for slide design is **clarity**. A slide should be immediately understandable; even if someone briefly loses focus, they should be able to look back and instantly recover the thread. To support this, I use short bullet points and highlight only the essential phrases. I sometimes add figures when they genuinely strengthen a point. And occasionally, I also include small icons or visual cues—not because they add information, but because I personally find a page with only text visually tiring. This is a matter of *personal preference, not a rule*, but it helps me balance clarity with just enough visual texture.
+### 1. Slides: Why I Start With Logic
 
-One habit that makes a big difference is assuming the audience knows nothing about my topic. This is not because they actually don’t, but because assuming otherwise invites the [curse of knowledge](https://en.wikipedia.org/wiki/Curse_of_knowledge). It reminds me to explain ideas cleanly and avoid skipping steps that feel “obvious” only because I have been thinking about them for weeks.
+When I begin working on slides, I always start with logic.
 
-My workflow always follows the same order:
+This is because the slide deck is ultimately a story, and stories fall apart if their underlying reasoning is shaky. A research talk becomes much easier to follow when its logical structure is clean, sequential, and intentional. If I begin with colors, layouts, or visual style instead of reasoning, I often end up decorating an argument that isn’t fully formed. But when the logic comes first, every slide has a purpose, and the design naturally supports the message.
 
-- first I build the skeleton of the slides;
-- then I write the full script;
-- finally I return to the slides and fill them with whatever the script reveals to be necessary—figures, phrasing, or emphasis.
+Before opening any software, I outline the entire argument on a blank page: the core problem, what current methods do, why those methods fall short, what my idea is, how it addresses the failure modes, what the results look like, and how those results should be interpreted.
 
-This back-and-forth *refinement* is where most of the clarity emerges.
+This is just an example—the outline can be much deeper depending on the work—but these are the minimum questions that form the backbone of most research talks.
 
-Writing the script itself is its own process. I draft it with one strict rule: **keep sentences short**. Talks happen *in real time*, and audiences cannot follow long, nested structures while also trying to grasp unfamiliar concepts. Short sentences help both the speaker and the listener. I often ask ChatGPT to help me phrase ideas, but the responsibility of logic, accuracy, and tone is still mine. I revise the script repeatedly, imagining how a skeptical listener might challenge each part: Is the claim too strong? Is the evidence sufficient? Is anything missing? Does the logic feel complete? I also think about whether someone with no background could follow the explanation. This dual perspective—anticipating critique while preserving accessibility—pushes the script toward its cleanest form.
+This outline becomes the structural skeleton. The script I write later grows on top of it like flesh over a frame, and the quality of that script depends directly on how clean the underlying structure is.
 
-The final layer is delivery. By this stage the slides are clear and the script is solid, so practicing becomes an exercise in *pacing rather than memorization*. I rehearse slowly—much slower than feels natural—because nervousness almost always speeds me up. I mark technical phrases and important transitions in the script and practice pausing slightly when I reach them. These small pauses give the audience time to process and help me maintain control of the rhythm. Deep breathing helps quiet the inevitable tension.
+⸻
 
-Looking back, I’ve realized that preparing a research talk is not about sounding impressive. It is about creating a path that others can walk. **Slides** clarify the structure; **scripts** clarify the language; **delivery** clarifies the pacing. Together, they form a process that transforms a complex idea into something the audience can genuinely understand.
+### 2. Clarity Above All
 
-If I had to summarize the entire approach in one line, it would be this:
+I design slides with one guiding principle: clarity above all.
 
-**clarity isn’t something you find—it’s something you build, layer by layer.**
+A research audience can lose track for many reasons. They may zone out for a moment, get stuck thinking about a previous point, miss a definition, or simply need a second to process a dense idea. Because this happens naturally, each slide must be readable enough that an audience member who momentarily lost the thread can look up and instantly understand where we are.
 
+To achieve this, I rely on four techniques:
+
+First, I use bullet points, but each bullet must be short—sometimes just a phrase. A long bullet defeats the point.
+
+Second, I bold or color only one or two phrases per slide—the absolute core ideas that I want the audience to remember. Over-highlighting reduces attention rather than directing it.
+
+Third, I reduce the amount of content on each slide. The slide should contain a complete claim or a complete piece of evidence, but never more than that. If a slide tries to express too many thoughts, they blur together.
+
+Fourth, I use figures selectively. A good figure does what five sentences cannot: it encapsulates an idea in an instantly digestible form. When I need visual evidence, I sometimes—and I emphasize personally—use GPT’s deep research tools to find relevant papers, examine several sources, and choose a figure that is clear and aligns with the argument I want to support. Whenever I include a figure, I cite its source. Citations not only respect the original researchers but also strengthen the credibility of the talk by grounding claims in real literature.
+
+Good figures are not decoration; they are visual arguments.
+
+⸻
+
+### 3. Scripts: Short Sentences and Visible Logic
+
+Once the skeleton slides are drafted, I write the script. This is where I find myself thinking the hardest, because the script must balance precision, tone, pacing, and logic, all while remaining speakable.
+
+I keep a strict stylistic rule: short sentences only.
+
+This is not a stylistic quirk—it’s practical. Research talks unfold in real time, and long, nested sentences collapse when spoken aloud. They are hard to say, hard to follow, and easy to lose.
+
+Short sentences create space. Each one delivers only one idea.
+
+If I have a list of reasons or multiple parallel points, I turn each one into its own sentence. This separation serves two functions: it emphasizes each point, and it removes unnecessary cognitive load from the audience.
+
+Sometimes logic itself needs to be explicitly surfaced. For example:
+
+“If the meaning stays similar, consistency is high.
+
+If the meaning drifts, consistency is low.”
+
+Two short lines.
+
+A clear contrast.
+
+No ambiguity.
+
+This style helps listeners process the structure of your reasoning without straining to reconstruct it.
+
+When drafting the script, I often—again, personally—ask ChatGPT to help shape phrasing. I feed it the ideas I want to convey and ask it to produce a speakable version. But the responsibility for the content remains mine: I revise each paragraph, imagining a skeptical listener asking why something is true, whether the logic is complete, or whether a claim is stronger than the evidence allows.
+
+I also check for accessibility. If someone with no domain background listened to this talk, would they follow? If an expert listened, would they feel that my logic is consistent and my claims proportionate? Balancing these two audiences forces the script into its cleanest form.
+
+⸻
+
+### 4. Delivery: Pacing, Presence, and Practical Tools
+
+By the time I reach delivery practice, the slides are structurally sound and the script is clear. Delivery then becomes an exercise in pacing, rhythm, and presence.
+
+I follow advice that many presenters recommend, but that I have found to be genuinely impactful:
+
+Speak slower than you think you should.
+
+Nerves speed you up. Deliberate slowness keeps your thoughts intact and gives the audience space to absorb them.
+
+Pause at difficult points.
+
+Technical terms or subtle ideas require processing time. A short pause—one second, sometimes two—helps the audience catch up and helps me reset my pace.
+
+Mark difficult lines in the script.
+
+During practice, I underline or highlight terms I know I tend to rush through. These marks remind me to slow down or pause.
+
+Read the script out loud, line by line, and revise as you go.
+
+A sentence that looks fine on the page may be awkward when spoken. Speaking it aloud forces you to confront rhythm and clarity issues early.
+
+Use deep breathing when nervous.
+
+This is more than a cliché. Deep breathing interrupts the physiological cycle that accelerates speech, tightens the throat, and scatters attention.
+
+The goal is not to sound dramatic or polished, but to sound stable.
+
+Stability is what makes a research talk feel trustworthy.
+
+⸻
+
+### Closing Thoughts
+
+Preparing a research talk is not a performance of intelligence. It is a construction project. Slides shape structure; scripts shape language; delivery shapes pacing. These layers support each other, and clarity emerges only when all three are developed with intention.
+
+If I had to summarize everything I’ve said, it would be this:
+
+Clarity is not something you stumble into.
+
+It is something you build—decision by decision, layer by layer.
 

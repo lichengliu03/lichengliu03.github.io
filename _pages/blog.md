@@ -12,11 +12,11 @@ nav_order: 1
   </header>
 
   <article>
-    {% assign only_post = site.posts | where: "slug", "how-i-prepare-research-presentation" %}
-    {% if only_post and only_post.size > 0 %}
+    {% assign posts = site.posts %}
+    {% if posts and posts.size > 0 %}
       <div class="table-responsive">
         <table class="table table-sm table-borderless">
-          {% for item in only_post %}
+          {% for item in posts %}
             <tr>
               <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
               <td>

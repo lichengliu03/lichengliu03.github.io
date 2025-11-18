@@ -21,7 +21,7 @@ In short:
 
 - **Slides** provide structure
 - **Script** gives the structure clear language
-- **Delivery** animates the whole thi
+- **Delivery** animates the whole thing
 
 ⸻
 
@@ -73,11 +73,7 @@ If I have a list of reasons or multiple parallel points, I turn each one into it
 
 Sometimes logic itself needs to be explicitly surfaced. For example:
 
-“If the meaning stays similar, consistency is high.
-
-If the meaning drifts, consistency is low.”
-
-Two short lines and a clear contrast.
+“If the meaning stays similar, consistency is high. If the meaning drifts, consistency is low.” — **Two short lines and a clear contrast.**
 
 This style helps listeners process the structure of your reasoning without straining to reconstruct it.
 

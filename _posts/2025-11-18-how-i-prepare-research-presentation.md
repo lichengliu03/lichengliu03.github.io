@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Prepare a Research Talk: Notes on Slides, Scripts, and Delivery"
-date: 2025-11-18 00:00:00
+date: 2025-11-17 00:00:00
 description: "How I prepare slides, scripts, and delivery — a student's perspective"
 tags: presentation research slides scripts delivery clarity student
 categories: blog

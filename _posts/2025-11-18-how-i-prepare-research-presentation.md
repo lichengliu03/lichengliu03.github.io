@@ -7,9 +7,21 @@ tags: presentation research slides scripts delivery clarity student
 categories: blog
 ---
 
-I want to share how I prepare a research presentation from the perspective of a student—specifically, an undergraduate still learning how to explain technical ideas in a way that feels clean, trustworthy, and genuinely understandable. Over time, I’ve found that preparing a talk is not about assembling slides as fast as possible, nor about memorizing a script at the end. Instead, it’s a layered process—slides, scripts, and delivery—each shaping a different dimension of clarity.
+I want to share how I prepare a research presentation from the perspective of a student—specifically, an undergraduate. 
 
-Before diving into each layer, I should mention that my workflow always follows the same order: first I build the skeleton of the slides, then I write the script, and finally I return to the slides to fill in figures, emphasis, and refinements that the script reveals to be necessary. The slides provide structure; the script gives the structure flesh; and the delivery animates the whole thing.
+To me, a research presentation is not just a slideshow. It is a guided conversation where you take an audience from knowing almost nothing about your work to understanding your main claims and why they matter. The goal is simple: by the end, people should know what you did, why you did it, and why they should trust the result. To reach that goal, I think in three layers: slides give the talk structure, the script gives that structure clear language, and delivery makes the argument feel stable and human.
+
+Before diving into each layer, I should mention that my workflow always follows the same order:
+
+- first I build the skeleton of the slides;
+- then I write the script;
+- finally I return to the slides to fill in figures, emphasis, and refinements that the script reveals to be necessary.
+
+In short:
+
+- **Slides** provide structure
+- **Script** gives the structure clear language
+- **Delivery** animates the whole thi
 
 ⸻
 
@@ -65,11 +77,7 @@ Sometimes logic itself needs to be explicitly surfaced. For example:
 
 If the meaning drifts, consistency is low.”
 
-Two short lines.
-
-A clear contrast.
-
-No ambiguity.
+Two short lines and a clear contrast.
 
 This style helps listeners process the structure of your reasoning without straining to reconstruct it.
 

@@ -15,10 +15,24 @@
   abstract={A theoretical and empirical study of reasoning collapse in closed-loop multi-turn agent reinforcement learning, framing collapse as the interaction of task signal, prompt-agnostic regularizers, and reward noise.}
 }
 
+@inproceedings{PLS,
+  abbr={NeurIPS},
+  bibtex_show={true},
+  title={Online Prediction with Limited Selectivity},
+  author={Licheng Liu and Mingda Qiao},
+  booktitle={Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2025},
+  note={Spotlight, top 3.2% of 21,575},
+  arxiv = {2508.09592},
+  primaryClass={cs.LG},
+  selected={true},
+  abstract={In this paper, we introduce a model of Prediction with Limited Selectivity (PLS) where the forecaster can start the prediction only on a subset of the time horizon. We study the optimal prediction error both on an instance-by-instance basis and via an average-case analysis. We introduce a complexity measure that gives instance-dependent bounds on the optimal error. For a randomly-generated PLS instance, these bounds match with high probability.}
+}
+
 @misc{ufo,
   abbr={arXiv},
   bibtex_show={true},
-  title={A Simple "Try Again" Can Elicit Multi-Turn LLM Reasoning},
+  title={Let's Try Again: Eliciting Multi-Turn Reasoning in Language Models via Simplistic Feedback},
   author={Licheng Liu and Zihan Wang and Linjie Li and Chenwei Xu and Yiping Lu and Han Liu and Avirup Sil and Manling Li},
   year={2025},
   arxiv = {2507.14295},
@@ -27,16 +41,13 @@
   abstract={In this paper, we propose Unary Feedback as Observation (UFO), a simple multi-turn reinforcement learning method that helps large reasoning models reflect on mistakes and improve through minimal feedback like “Let’s try again.” UFO improves multi-turn reasoning accuracy by up to 14% while maintaining single-turn performance, enabling more deliberate and flexible problem solving.}
 }
 
-@misc{PLS,
+@misc{cocoabench,
   abbr={arXiv},
   bibtex_show={true},
-  title={Online Prediction with Limited Selectivity},
-  author={Licheng Liu and Mingda Qiao},
-  year={2025},
-  arxiv = {2508.09592},
-  primaryClass={cs.LG},
-  selected={true},
-  abstract={In this paper, we introduce a model of Prediction with Limited Selectivity (PLS) where the forecaster can start the prediction only on a subset of the time horizon. We study the optimal prediction error both on an instance-by-instance basis and via an average-case analysis. We introduce a complexity measure that gives instance-dependent bounds on the optimal error. For a randomly-generated PLS instance, these bounds match with high probability.}
+  title={CocoaBench: An Evaluation Framework for General Agents with Compositional Cognitive Abilities},
+  author={CocoaBench Team and Shibo Hao and Zhining Zhang and Zhiqi Liang and Tianyang Liu and Yuheng Zha and Qiyue Gao and Jixuan Chen and Zilong Wang and Zhoujun Cheng and Haoxiang Zhang and Junli Wang and Hexi Jin and Boyuan Zheng and Kun Zhou and Yu Wang and Feng Yao and Licheng Liu and Yijiang Li and Zhifei Li and Zhengtao Han and Pracha Promthaw and Tommaso Cerruti and Xiaohan Fu and Ziqiao Ma and Jingbo Shang and Lianhui Qin and Julian McAuley and Eric P. Xing and Zhengzhong Liu and Rupesh Kumar Srivastava and Zhiting Hu},
+  year={2026},
+  primaryClass={cs.LG}
 }
 
 @misc{ragen,
@@ -47,6 +58,5 @@
   year={2025},
   arxiv = {2504.20073},
   primaryClass={cs.LG},
-  selected={true},
   abstract={This paper introduces RAGEN, a framework for understanding self-evolution in Large Language Model (LLM) agents through multi-turn reinforcement learning. The work explores how LLM agents can improve their performance over multiple interactions using reinforcement learning techniques.}
 }

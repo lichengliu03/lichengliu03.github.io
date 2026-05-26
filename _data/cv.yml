@@ -2,96 +2,65 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Licheng Liu
+    - name: Email
+      value: licheng.liu22@imperial.ac.uk
     - name: Languages
-      value: English, German
+      value: English, Mandarin Chinese
+    - name: Research Interests
+      value: LLM post-training, multi-turn reinforcement learning, learning theory
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science (Incoming)
+      institution: University of Wisconsin–Madison, Madison, USA
+      year: 2026 - 2031 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Research interests&#58; LLM post-training.
+    - title: B.S. in Mathematics
+      institution: Imperial College London, London, United Kingdom
+      year: 2022 - 2026
       description:
-        - Description 1.
-        - Description 2.
+        - "Selected courses: Scientific Computation, Time Series Analysis, Stochastic Simulation, Network Science, Principles of Programming, Introduction to Computation."
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: MLL Lab, Northwestern University (Advisor&#58; Prof. Manling Li)
+      year: Mar 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "<b>Try Again — UFO:</b> Identified a key failure mode of single-turn RLVR (models stop revising under feedback). Proposed <i>Unary Feedback as Observation (UFO)</i>, a multi-turn RL formulation that injects minimal unary feedback as the environment observation, enabling multi-turn training on static single-turn datasets and improving multi-turn reasoning accuracy by up to 14%. Introduced PassSeq@k and reward shaping (turn-wise decay, repetition penalty)."
+        - "<b>Reasoning Collapse:</b> Proposed a theoretical framework explaining reasoning collapse in closed-loop multi-turn RL as the interaction of task signal, prompt-agnostic regularizers, and reward noise; developed an SNR / reward-variance mechanism and a taxonomy of collapse modes."
+        - "<b>RAGEN:</b> Contributed to the RAGEN framework for training LLM reasoning agents in interactive, stochastic environments (2400+ GitHub stars); assisted in theoretical development and paper writing."
+    - title: Research Collaborator
+      institution: UC Berkeley (Advisors&#58; Prof. Joseph Gonzalez, Prof. Ion Stoica)
+      year: Ongoing
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Contributing to the <b>Real-Time Audio Tool Benchmark</b>, evaluating whether models can recognize user needs, invoke appropriate tools, and complete tasks from spoken requests.
+        - Designed <b>implicit-instruction</b> tasks that test inference of latent user intent from speech content.
+        - Responsible for the benchmark <b>infrastructure</b> and end-to-end evaluation pipeline.
+    - title: Research Intern
+      institution: MIT (Advisor&#58; Mingda Qiao)
+      year: May 2024 - May 2025
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Studied <b>online prediction under limited selectivity</b>, generalizing selective prediction to realistic forecasting constraints.
+        - Introduced the <b>Prediction with Limited Selectivity (PLS)</b> model and an instance-dependent complexity measure (approximate uniformity).
+        - Proved matching upper and lower bounds, with an average-case analysis showing tightness up to constants.
+        - First-authored paper accepted to <b>NeurIPS 2025 as a Spotlight</b>.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - ICML 2026 <b>Oral</b> (top 0.7% of 23,918) — RAGEN-2
+    - year: 2025
       items:
-        - Max Planck Medal
+        - NeurIPS 2025 <b>Spotlight</b> (top 3.2% of 21,575) — Online Prediction with Limited Selectivity
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Reviewer&#58; AI4MATH@ICML, MTI-LLM@NeurIPS; external reviewer at ICLR.

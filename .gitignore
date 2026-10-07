@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# editors
+.idea/
+.vscode/
+*.swp
+
+# OS / tooling leftovers
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+node_modules/
+
+# never commit the CV or private drafts
+Licheng_CV.pdf
+private/

@@ -14,39 +14,30 @@
     <meta property="og:url" content="https://lichengliu03.github.io/news/annoucement_3.html" />
     <meta property="og:description" content="Our work UFO has been accepted to AI4Math@ICML25. Grateful to all my co-authors!" />
     <meta property="og:image" content="https://lichengliu03.github.io/assets/img/icon-400.jpg" />
-    <script>
-      (function () {
-        var saved = null;
-        try {
-          saved = localStorage.getItem("theme");
-        } catch (e) {}
-        if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
-      })();
-    </script>
+
   </head>
   <body>
     <header class="site">
-      <div class="inner">
-        <a class="brand" href="/">Licheng Liu</a>
+      <div class="bar">
+        <a class="wordmark" href="/">Licheng Liu</a>
         <nav class="site">
           <a href="/">About</a>
           <a href="/publications/">Papers</a>
           <a href="/blog/">Blog</a>
-          <button id="theme-toggle" type="button" aria-label="Switch between light and dark theme">◐</button>
+          <a class="btn" href="mailto:lichengliu1103@gmail.com">Email me</a>
         </nav>
       </div>
     </header>
 
     <main class="wrap">
-      <section style="margin-top: 2.6rem">
-        <h2 class="label">Jul 2025</h2>
-        <p>Our work <a href="https://unary-feedback.github.io/">UFO</a> has been accepted to <a href="https://sites.google.com/view/ai4mathworkshopicml2025">AI4Math@ICML25</a>. Grateful to all my co-authors!</p>
-        <p class="more"><a href="/news/">← All news</a></p>
+      <section>
+        <div class="rule head"><h2>Jul 2025</h2><a href="/news/">All news →</a></div>
+        <p style="color: var(--ink-soft); font-size: 1.05rem; max-width: 44rem">Our work <a href="https://unary-feedback.github.io/">UFO</a> has been accepted to <a href="https://sites.google.com/view/ai4mathworkshopicml2025">AI4Math@ICML25</a>. Grateful to all my co-authors!</p>
       </section>
     </main>
 
     <footer class="site">
-      <div class="inner">
+      <div class="in">
         <div class="links">
           <a href="mailto:lichengliu1103@gmail.com">Email</a>
           <a href="https://github.com/lichengliu03">GitHub</a>
@@ -64,21 +55,6 @@
     </footer>
 
     <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <script>
-      (function () {
-        var toggle = document.getElementById("theme-toggle");
-        if (!toggle) return;
-        toggle.addEventListener("click", function () {
-          var root = document.documentElement;
-          var current =
-            root.dataset.theme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-          var next = current === "dark" ? "light" : "dark";
-          root.dataset.theme = next;
-          try {
-            localStorage.setItem("theme", next);
-          } catch (e) {}
-        });
-      })();
-    </script>
+
   </body>
 </html>

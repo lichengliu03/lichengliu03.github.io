@@ -481,6 +481,11 @@ footer.fixed-bottom {
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
+
+    // the global `span { color: var(--global-text-color) }` rule would make footer spans unreadable
+    span {
+      color: inherit;
+    }
   }
 
   a {

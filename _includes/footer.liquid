@@ -9,6 +9,12 @@
   {% if site.last_updated %}
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
+  {% if site.enable_visitor_counter %}
+    <!-- stays hidden unless busuanzi returns the counts -->
+    <span id="busuanzi_container_site_pv" style="display: none">
+      Visitors: <span id="busuanzi_value_site_uv"></span> &middot; Page views: <span id="busuanzi_value_site_pv"></span>.
+    </span>
+  {% endif %}
 {% endcapture %}
 
 {% if site.footer_fixed %}

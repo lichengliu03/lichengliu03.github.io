@@ -14,64 +14,55 @@
     <meta property="og:url" content="https://lichengliu03.github.io/news/" />
     <meta property="og:description" content="News and announcements from Licheng Liu." />
     <meta property="og:image" content="https://lichengliu03.github.io/assets/img/icon-400.jpg" />
-    <script>
-      (function () {
-        var saved = null;
-        try {
-          saved = localStorage.getItem("theme");
-        } catch (e) {}
-        if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
-      })();
-    </script>
+
   </head>
   <body>
     <header class="site">
-      <div class="inner">
-        <a class="brand" href="/">Licheng Liu</a>
+      <div class="bar">
+        <a class="wordmark" href="/">Licheng Liu</a>
         <nav class="site">
           <a href="/">About</a>
           <a href="/publications/">Papers</a>
           <a href="/blog/">Blog</a>
-          <button id="theme-toggle" type="button" aria-label="Switch between light and dark theme">◐</button>
+          <a class="btn" href="mailto:lichengliu1103@gmail.com">Email me</a>
         </nav>
       </div>
     </header>
 
     <main class="wrap">
-      <section style="margin-top: 2.6rem">
-        <h2 class="label">News</h2>
-        <ul class="dates">
+      <section>
+        <div class="rule head"><h2>News</h2><a href="/">About →</a></div>
+        <ul class="news">
           <li>
             <span class="when">May 2026</span>
-            <p class="what"><a href="https://ragen-ai.github.io/v2/"><strong>RAGEN-2: Reasoning Collapse in Agentic RL</strong></a> has been accepted to <strong>ICML 2026 as an Oral</strong> (top 0.7% of 23,918 submissions). Huge thanks to all collaborators.</p>
+            <p><a href="https://ragen-ai.github.io/v2/"><strong>RAGEN-2: Reasoning Collapse in Agentic RL</strong></a> has been accepted to <strong>ICML 2026 as an Oral</strong> (top 0.7% of 23,918 submissions). Huge thanks to all collaborators.</p>
           </li>
           <li>
             <span class="when">Apr 2026</span>
-            <p class="what">I'll be joining the <strong>University of Wisconsin–Madison</strong> as a CS PhD student in Fall 2026, working on LLM post-training. Very excited for the next chapter!</p>
+            <p>I'll be joining the <strong>University of Wisconsin–Madison</strong> as a CS PhD student in Fall 2026, working on LLM post-training. Very excited for the next chapter!</p>
           </li>
           <li>
             <span class="when">Sep 2025</span>
-            <p class="what">Our work <a href="https://arxiv.org/abs/2508.09592">Online Prediction with Limited Selectivity</a> has been accepted to <a href="https://neurips.cc/">NeurIPS'25</a> as a Spotlight (Top 3.5%). Heartfelt thanks to my mentor <a href="https://sites.google.com/site/acmonsterqiao/">Prof. Mingda Qiao</a> for his guidance and support throughout my research.</p>
+            <p>Our work <a href="https://arxiv.org/abs/2508.09592">Online Prediction with Limited Selectivity</a> has been accepted to <a href="https://neurips.cc/">NeurIPS'25</a> as a Spotlight (Top 3.5%). Heartfelt thanks to my mentor <a href="https://sites.google.com/site/acmonsterqiao/">Prof. Mingda Qiao</a> for his guidance and support throughout my research.</p>
           </li>
           <li>
             <span class="when">Jul 2025</span>
-            <p class="what">Our work <a href="https://unary-feedback.github.io/">UFO</a> has been accepted to <a href="https://sites.google.com/view/ai4mathworkshopicml2025">AI4Math@ICML25</a>. Grateful to all my co-authors!</p>
+            <p>Our work <a href="https://unary-feedback.github.io/">UFO</a> has been accepted to <a href="https://sites.google.com/view/ai4mathworkshopicml2025">AI4Math@ICML25</a>. Grateful to all my co-authors!</p>
           </li>
           <li>
             <span class="when">Mar 2025</span>
-            <p class="what">I'm excited to share that I'm joining <a href="https://mll-lab-nu.github.io/">NU MLL Lab</a>, advised by <a href="https://limanling.github.io/">Prof. Manling Li</a>. I mainly work with <a href="https://zihanwang314.github.io/">Zihan Wang</a> and am grateful for his guidance.</p>
+            <p>I'm excited to share that I'm joining <a href="https://mll-lab-nu.github.io/">NU MLL Lab</a>, advised by <a href="https://limanling.github.io/">Prof. Manling Li</a>. I mainly work with <a href="https://zihanwang314.github.io/">Zihan Wang</a> and am grateful for his guidance.</p>
           </li>
           <li>
             <span class="when">May 2024</span>
-            <p class="what">I'm grateful to be supervised by <a href="https://sites.google.com/site/acmonsterqiao/">Prof. Mingda Qiao</a> working on selective prediction in online settings.</p>
+            <p>I'm grateful to be supervised by <a href="https://sites.google.com/site/acmonsterqiao/">Prof. Mingda Qiao</a> working on selective prediction in online settings.</p>
           </li>
         </ul>
-        <p class="more"><a href="/">← Back to about</a></p>
       </section>
     </main>
 
     <footer class="site">
-      <div class="inner">
+      <div class="in">
         <div class="links">
           <a href="mailto:lichengliu1103@gmail.com">Email</a>
           <a href="https://github.com/lichengliu03">GitHub</a>
@@ -89,21 +80,6 @@
     </footer>
 
     <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <script>
-      (function () {
-        var toggle = document.getElementById("theme-toggle");
-        if (!toggle) return;
-        toggle.addEventListener("click", function () {
-          var root = document.documentElement;
-          var current =
-            root.dataset.theme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-          var next = current === "dark" ? "light" : "dark";
-          root.dataset.theme = next;
-          try {
-            localStorage.setItem("theme", next);
-          } catch (e) {}
-        });
-      })();
-    </script>
+
   </body>
 </html>

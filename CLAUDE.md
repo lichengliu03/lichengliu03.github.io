@@ -5,9 +5,15 @@ Personal site of Licheng Liu, served at https://lichengliu03.github.io. Plain st
 no Jekyll, no build step, no dependencies. Pushing to `main` publishes the repository to the
 `gh-pages` branch via `.github/workflows/deploy.yml`.
 
-Self-hosted Inter (latin subset) in `assets/fonts/`; the only third-party runtime request is the
-busuanzi visitor counter in the footer. ClustrMaps was removed because its domain resolves to
-127.0.0.1 on mainland DNS, so the widget neither rendered nor counted there.
+Self-hosted Source Serif 4 and Hanken Grotesk in `assets/fonts/`, the closest open substitutes for
+Anthropic's proprietary faces; the palette follows anthropic.com's design tokens and the site is
+light-only. The only third-party runtime request is the busuanzi visitor counter in the footer.
+
+ClustrMaps was removed because the domain is parked: its own authoritative nameservers
+(nsa2.srv53.com, nsa3.srv53.net, nsb2.srv53.net) answer `A clustrmaps.com = 127.0.0.1` with the
+authoritative flag set, and every public resolver agrees, so the widget could not render or count
+for any visitor anywhere. The parked record also makes the hostname resolve to localhost, so a
+request to it hits whatever runs on the visitor's own machine.
 
 ## User preferences
 

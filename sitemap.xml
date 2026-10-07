@@ -22,12 +22,22 @@
   </url>
   <url>
     <loc>https://lichengliu03.github.io/news/</loc>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-06</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://lichengliu03.github.io/news/announcement_7.html</loc>
+    <lastmod>2026-06</lastmod>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://lichengliu03.github.io/news/announcement_6.html</loc>
     <lastmod>2026-05-24</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://lichengliu03.github.io/news/announcement_8.html</loc>
+    <lastmod>2026-05</lastmod>
     <priority>0.4</priority>
   </url>
   <url>

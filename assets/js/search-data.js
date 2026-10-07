@@ -34,19 +34,14 @@ ninja.data = [{
             window.location.href = "/blog/2025/11/17/how-i-prepare-research-presentation.html";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-m-grateful-to-be-supervised-by-prof-mingda-qiao-working-on-selective-prediction-in-online-settings",
+      },{id: "news-i-m-grateful-to-be-supervised-by-prof-mingda-qiao-working-on-selective-prediction-in-online-settings",
           title: 'I’m grateful to be supervised by Prof. Mingda Qiao working on selective prediction...',
           description: "",
           section: "News",},{id: "news-i-m-excited-to-share-that-i-m-joining-nu-mll-lab-advised-by-prof-manling-li-i-mainly-work-with-zihan-wang-and-am-grateful-for-his-guidance",
           title: 'I’m excited to share that I’m joining NU MLL Lab 🔬, advised by...',
           description: "",
-          section: "News",},{id: "news-our-work-ufo-has-been-accepted-to-ai4math-icml25-grateful-to-to-all-my-co-authors",
-          title: 'Our work UFO has been accepted to AI4Math@ICML25. Grateful to to all my...',
+          section: "News",},{id: "news-our-work-ufo-has-been-accepted-to-ai4math-icml25-grateful-to-all-my-co-authors",
+          title: 'Our work UFO has been accepted to AI4Math@ICML25. Grateful to all my co-authors!...',
           description: "",
           section: "News",},{id: "news-our-work-online-prediction-with-limited-selectivity-has-been-accepted-to-neurips-25-as-a-spotlight-top-3-5-heartfelt-thanks-to-my-mentor-prof-mingda-qiao-for-his-invaluable-guidance-and-continuous-support-throughout-my-research-and-growth",
           title: 'Our work Online Prediction with Limited Selectivity has been accepted to NeurIPS’25 as...',
@@ -57,52 +52,7 @@ ninja.data = [{
           section: "News",},{id: "news-ragen-2-reasoning-collapse-in-agentic-rl-has-been-accepted-to-icml-2026-as-an-oral-top-0-7-of-23-918-submissions-huge-thanks-to-all-collaborators",
           title: 'RAGEN-2: Reasoning Collapse in Agentic RL has been accepted to ICML 2026 as...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',

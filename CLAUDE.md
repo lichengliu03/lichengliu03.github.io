@@ -24,3 +24,5 @@ busuanzi visitor counter in the footer. ClustrMaps was removed because its domai
   Edit that script and re-run it, or edit the generated HTML directly for one-off changes.
 - Old URLs (`/news/announcement_N.html`, `/blog/2025/11/17/...`) are kept so existing links and
   search results keep working.
+- `google78a7105aae8210bb.html` is Google Search Console's site-verification file. **Do not delete
+  or edit it** — removing it drops the owner's access to the Search Console property.

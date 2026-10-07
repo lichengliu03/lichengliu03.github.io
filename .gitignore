@@ -1,14 +1,18 @@
-_site
-.bundle
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-.DS_store
-.ruby-version
-.tweet-cache
-Gemfile.lock
-assets/libs/
+# macOS
+.DS_Store
+
+# editors
+.idea/
+.vscode/
+*.swp
+
+# OS / tooling leftovers
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
 node_modules/
-vendor
-.idea
+
+# never commit the CV or private drafts
 Licheng_CV.pdf
+private/

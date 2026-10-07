@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Licheng Liu</title>
+    <link>https://lichengliu03.github.io/</link>
+    <description>Notes on agentic RL, LLM post-training, and research presentations.</description>
+    <language>en</language>
+    <atom:link href="https://lichengliu03.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Prepare a Research Talk: Notes on Slides, Scripts, and Delivery</title>
+      <link>https://lichengliu03.github.io/blog/2025/11/17/how-i-prepare-research-presentation.html</link>
+      <guid isPermaLink="true">https://lichengliu03.github.io/blog/2025/11/17/how-i-prepare-research-presentation.html</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <description>How I prepare slides, scripts, and delivery — a student&#x27;s perspective</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publications | Licheng Liu</title>
+    <meta name="description" content="Publications by Licheng Liu: RAGEN-2, Online Prediction with Limited Selectivity, UFO, CocoaBench, RAGEN." />
+    <link rel="canonical" href="https://lichengliu03.github.io/publications/" />
+    <link rel="shortcut icon" href="/assets/img/icon-400.jpg" />
+    <link rel="apple-touch-icon" href="/assets/img/icon-400.jpg" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Publications | Licheng Liu" />
+    <meta property="og:url" content="https://lichengliu03.github.io/publications/" />
+    <meta property="og:image" content="https://lichengliu03.github.io/assets/img/icon-400.jpg" />
+    <script>
+      (function () {
+        var saved = null;
+        try {
+          saved = localStorage.getItem("theme");
+        } catch (e) {}
+        if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site">
+      <div class="inner">
+        <a class="brand" href="/">Licheng Liu</a>
+        <nav class="site">
+          <a href="/">About</a>
+          <a href="/publications/" aria-current="page">Papers</a>
+          <a href="/blog/">Blog</a>
+          <button id="theme-toggle" type="button" aria-label="Switch between light and dark theme">◐</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section style="margin-top: 2.6rem">
+        <h2 class="label">Publications</h2>
+        <ol class="pubs">
+          <li>
+            <div class="pub-title">RAGEN-2: Reasoning Collapse in Agentic RL</div>
+            <div class="pub-authors">
+              Zihan Wang<sup>†*</sup>, Chi Gui<sup>†</sup>, Xing Jin<sup>†</sup>, Qineng Wang<sup>†</sup>,
+              <span class="me">Licheng Liu</span><sup>†</sup>, Kangrui Wang, Shiqi Chen, Linjie Li, Zhengyuan Yang,
+              Pingyue Zhang, Yiping Lu, Jiajun Wu, Li Fei-Fei, Lijuan Wang, Yejin Choi, Manling Li
+            </div>
+            <div class="pub-venue">Forty-Third International Conference on Machine Learning (ICML), 2026</div>
+            <div class="pub-note emphasis">Oral, top 0.7% of 23,918</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2604.06268">arXiv</a>
+              <a href="https://ragen-ai.github.io/v2/">Website</a>
+            </div>
+            <details class="legend" style="margin-top: 0.5rem">
+              <summary style="cursor: pointer">BibTeX</summary>
+              <pre
+                style="overflow-x: auto; font-size: 0.82rem; line-height: 1.5; margin-top: 0.6rem"
+              ><code>@inproceedings{ragen2,
+  title={RAGEN-2: Reasoning Collapse in Agentic RL},
+  author={Zihan Wang and Chi Gui and Xing Jin and Qineng Wang and Licheng Liu and Kangrui Wang and Shiqi Chen and Linjie Li and Zhengyuan Yang and Pingyue Zhang and Yiping Lu and Jiajun Wu and Li Fei-Fei and Lijuan Wang and Yejin Choi and Manling Li},
+  booktitle={Forty-Third International Conference on Machine Learning (ICML)},
+  year={2026},
+  note={Oral, top 0.7\% of 23,918}
+}</code></pre>
+              <p style="margin: 0.3rem 0 0"><sup>†</sup> Core contributors. <sup>*</sup> Project lead.</p>
+            </details>
+          </li>
+
+          <li>
+            <div class="pub-title">Online Prediction with Limited Selectivity</div>
+            <div class="pub-authors"><span class="me">Licheng Liu</span>, Mingda Qiao</div>
+            <div class="pub-venue">Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025</div>
+            <div class="pub-note emphasis">Spotlight, top 3.2% of 21,575</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2508.09592">arXiv</a>
+            </div>
+            <details class="legend" style="margin-top: 0.5rem">
+              <summary style="cursor: pointer">BibTeX</summary>
+              <pre
+                style="overflow-x: auto; font-size: 0.82rem; line-height: 1.5; margin-top: 0.6rem"
+              ><code>@inproceedings{PLS,
+  title={Online Prediction with Limited Selectivity},
+  author={Licheng Liu and Mingda Qiao},
+  booktitle={Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2025},
+  note={Spotlight, top 3.2\% of 21,575}
+}</code></pre>
+            </details>
+          </li>
+
+          <li>
+            <div class="pub-title">
+              Let's Try Again: Eliciting Multi-Turn Reasoning in Language Models via Simplistic Feedback
+            </div>
+            <div class="pub-authors">
+              <span class="me">Licheng Liu</span>, Zihan Wang, Linjie Li, Chenwei Xu, Yiping Lu, Han Liu, Avirup Sil,
+              Manling Li
+            </div>
+            <div class="pub-venue">AI4Math@ICML 2025</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2507.14295">arXiv</a>
+              <a href="https://github.com/lichengliu03/unary-feedback">Code</a>
+              <a href="https://unary-feedback.github.io/">Website</a>
+            </div>
+            <details class="legend" style="margin-top: 0.5rem">
+              <summary style="cursor: pointer">BibTeX</summary>
+              <pre
+                style="overflow-x: auto; font-size: 0.82rem; line-height: 1.5; margin-top: 0.6rem"
+              ><code>@misc{ufo,
+  title={Let's Try Again: Eliciting Multi-Turn Reasoning in Language Models via Simplistic Feedback},
+  author={Licheng Liu and Zihan Wang and Linjie Li and Chenwei Xu and Yiping Lu and Han Liu and Avirup Sil and Manling Li},
+  year={2025},
+  eprint={2507.14295},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG}
+}</code></pre>
+            </details>
+          </li>
+
+          <li>
+            <div class="pub-title">
+              CocoaBench: An Evaluation Framework for General Agents with Compositional Cognitive Abilities
+            </div>
+            <div class="pub-authors">
+              CocoaBench Team, Shibo Hao, Zhining Zhang, Zhiqi Liang, Tianyang Liu, Yuheng Zha, Qiyue Gao, Jixuan Chen,
+              Zilong Wang, Zhoujun Cheng, Haoxiang Zhang, Junli Wang, Hexi Jin, Boyuan Zheng, Kun Zhou, Yu Wang, Feng Yao,
+              <span class="me">Licheng Liu</span>, Yijiang Li, Zhifei Li, Zhengtao Han, Pracha Promthaw, Tommaso Cerruti,
+              Xiaohan Fu, Ziqiao Ma, Jingbo Shang, Lianhui Qin, Julian McAuley, Eric P. Xing, Zhengzhong Liu,
+              Rupesh Kumar Srivastava, Zhiting Hu
+            </div>
+            <div class="pub-venue">Preprint, 2026</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2604.11201">arXiv</a>
+              <a href="https://cocoabench.github.io/">Website</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="pub-title">
+              RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning
+            </div>
+            <div class="pub-authors">
+              Zihan Wang, Kangrui Wang, Qineng Wang, Pingyue Zhang, Linjie Li, Zhengyuan Yang, Xing Jin, Kefan Yu,
+              Minh Nhat Nguyen, <span class="me">Licheng Liu</span>, Eli Gottlieb, Yiping Lu, Kyunghyun Cho, Jiajun Wu,
+              Li Fei-Fei, Lijuan Wang, Yejin Choi, Manling Li
+            </div>
+            <div class="pub-venue">Preprint, 2025</div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2504.20073">arXiv</a>
+              <a href="https://github.com/mll-lab-nu/RAGEN">Code</a>
+              <a href="https://ragen-ai.github.io/v1/">Website</a>
+            </div>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site">
+      <div class="inner">
+        <div class="links">
+          <a href="mailto:lichengliu1103@gmail.com">Email</a>
+          <a href="https://github.com/lichengliu03">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=VjiEHAkAAAAJ">Google Scholar</a>
+          <a href="https://www.linkedin.com/in/licheng-liu">LinkedIn</a>
+          <a href="https://twitter.com/liulicheng10">X</a>
+        </div>
+        <div>
+          <span id="busuanzi_container_site_pv" style="display: none">
+            Visitors: <span id="busuanzi_value_site_uv"></span> &middot; Page views:
+            <span id="busuanzi_value_site_pv"></span>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script>
+      (function () {
+        var toggle = document.getElementById("theme-toggle");
+        if (!toggle) return;
+        toggle.addEventListener("click", function () {
+          var root = document.documentElement;
+          var current =
+            root.dataset.theme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          var next = current === "dark" ? "light" : "dark";
+          root.dataset.theme = next;
+          try {
+            localStorage.setItem("theme", next);
+          } catch (e) {}
+        });
+      })();
+    </script>
+  </body>
+</html>

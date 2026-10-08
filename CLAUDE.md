@@ -7,7 +7,10 @@ no Jekyll, no build step, no dependencies. Pushing to `main` publishes the repos
 
 Self-hosted Source Serif 4 and Hanken Grotesk in `assets/fonts/`, the closest open substitutes for
 Anthropic's proprietary faces; the palette follows anthropic.com's design tokens and the site is
-light-only. The only third-party runtime request is the busuanzi visitor counter in the footer.
+light-only. The only third-party runtime request is the Vercount visitor counter in the footer
+(`https://events.vercount.one/js`). It replaced busuanzi because busuanzi's `site_uv` is not a
+unique-visitor count: it increments on every request. Vercount sets a one-year cookie per browser
+and only counts a visitor once, so "Visitors" (site_uv) and "Page views" (site_pv) are distinct.
 
 ClustrMaps was removed because the domain is parked: its own authoritative nameservers
 (nsa2.srv53.com, nsa3.srv53.net, nsb2.srv53.net) answer `A clustrmaps.com = 127.0.0.1` with the

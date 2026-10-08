@@ -9,7 +9,7 @@
    open substitutes — Source Serif 4 (≈ Tiempos/Anthropic Serif) for display
    and headings, Hanken Grotesk (≈ Styrene/Anthropic Sans) for body text.
    Both are self-hosted; the only third-party request on the site is the
-   busuanzi visitor counter. No dark theme: the design is light by intent. */
+   Vercount visitor counter. No dark theme: the design is light by intent. */
 
 /* ---------- fonts ---------- */
 @font-face {
@@ -563,13 +563,8 @@ footer.site a {
 footer.site a:hover {
   color: var(--clay-deep);
 }
-#busuanzi_container_site_pv {
+#vercount_container_site_uv {
   display: none;
-}
-
-/* the counter element is filled in by busuanzi and must not push the layout */
-.busuanzi-show #busuanzi_container_site_pv {
-  display: inline !important;
 }
 
 /* ---------- responsive ---------- */
